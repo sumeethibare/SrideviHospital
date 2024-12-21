@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Navigate from "@/components/Navigation/Navigate";
 import PageLoader from "@/components/Pageloader/PageLoader";
+import Base from "@/components/Footer/Base";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,13 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="text-selection-none noscrollbar">
+    <html lang="en" className="text-selection-none noscrollbar scroll-smooth">
       <body
         className={`${geistSans.variable} antialiased h-dvh`}
       >
-        <PageLoader/>
-        <Navigate/>
+        <PageLoader />
+        <Navigate />
         {children}
+        <Base />
       </body>
     </html>
   );

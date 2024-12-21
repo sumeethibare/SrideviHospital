@@ -7,7 +7,7 @@ import React from 'react'
 function Present() {
     return (
         <>
-            <section className="mx-auto max-w-6xl p-4">
+            <section className="mx-auto max-w-6xl p-4 py-0">
                 <dl className="rounded-3xl bg-emerald-100 sm:grid sm:grid-cols-3">
 
                     <div className="flex flex-col border-b-4 border-zinc-50 p-6 text-center sm:border-0 sm:border-r-4">

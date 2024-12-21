@@ -1,23 +1,23 @@
 export const menu = [
     {
         title: "Home",
-        link: "/item1",
+        link: "/",
     },
     {
         title: "About",
-        link: "/item3",
-    },
-    {
-        title: "Departments",
-        link: "#",
+        link: "/#blockquote",
     },
     {
         title: "Services",
-        link: "/item3",
+        link: "/#services",
+    },
+    {
+        title: "Departments",
+        link: "/departments",
     },
     {
         title: "Contact",
-        link: "/item3",
+        link: "/contact",
     },
 
 ];

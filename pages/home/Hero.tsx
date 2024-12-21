@@ -8,7 +8,7 @@ function Hero() {
         <>
 
             <section className="w-full pt-12 md:pt-24 lg:pt-24 xl:pt-24 border-b bg-gradient-to-b from-green-50 to-white">
-                <div className="container px-4 md:px-12 mb-10">
+                <div className="container px-4 md:px-12">
                     <div className="grid gap-6 items-center lg:grid-cols-[1fr_400px] lg:gap-6 xl:grid-cols-[1fr_400px]">
                         <div className="flex flex-col justify-center pb-12 lg:pb-24 lg:pl-36 space-y-4">
                             <div className="space-y-2">
@@ -19,7 +19,7 @@ function Hero() {
                                 <Appointmentbutton />
                             </div>
                         </div>
-                        <Image alt="Medical professionals" className="mx-auto md:mx-0 h-[200px] lg:h-[400px] object-contain sm:w-full lg:order-last" src="/logo.jpg" width={400} height={400} />
+                        <Image alt="Medical professionals" className="mx-auto md:mx-0 h-[200px] lg:h-[400px] object-contain sm:w-full lg:order-last shadow-inherit" src="/props/hero/doctor.png" width={400} height={400} />
                     </div>
                 </div>
                 <Present />
